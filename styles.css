@@ -1,0 +1,47 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	font-family: Arial, sans-serif;
+	line-height: 1.6;
+	background-image: url('https://dabbar.ru/files/img/pics/biznes-kartinki-na-rabochii-stol/biznes-kartinki-na-rabochii-stol-86.webp');
+	/background-size: cover;
+	background-position: center;
+	color: #333;
+}
+
+header {
+	background: rgba(0, 123, 255, 0.8); /* Прозрачный фон */
+	color: white;
+	padding: 20px;
+	text-align: center;
+	border-bottom: 5px solid rgba(0, 86, 179, 0.8);
+}
+
+h1 {
+	margin-bottom: 10px;
+	font-size: 2.5em;
+}
+
+h2 {
+	margin-bottom: 10px;
+	color: #007bff;
+}
+
+.about,
+.resume,
+.contact {
+	background: rgba(255, 255, 255, 0.9); /* Прозрачный белый фон */
+	margin: 20px auto;
+	padding: 20px;
+	border-radius: 8px;
+	max-width: 800px;
+	box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+ul {
+	margin-top: 10px;
+}
